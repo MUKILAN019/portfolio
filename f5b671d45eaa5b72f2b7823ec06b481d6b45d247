@@ -1,0 +1,29 @@
+index.html
+  36d7a367e726b989 6-7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.0.24",
+  "base_commit_sha": "f5b671d45eaa5b72f2b7823ec06b481d6b45d247",
+  "prompts": {
+    "36d7a367e726b989": {
+      "agent_id": {
+        "tool": "DeputyDev",
+        "id": "357873",
+        "model": "GROK_4_POINT_1_FAST"
+      },
+      "human_author": "mukilan.p@kalvium.community",
+      "messages": [
+        {
+          "type": "assistant",
+          "text": "Changes made via DeputyDev VS Code extension",
+          "timestamp": "2026-01-02T16:14:13.978Z"
+        }
+      ],
+      "total_additions": 29,
+      "total_deletions": 17,
+      "accepted_lines": 7,
+      "overriden_lines": 1
+    }
+  }
+}
