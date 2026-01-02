@@ -1,0 +1,228 @@
+.portfolio-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1000;
+  background: linear-gradient(135deg, #1d3557 0%, #457b9d 100%);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  padding: 0;
+  height: 64px;
+  line-height: 64px;
+  overflow-x: hidden;
+}
+
+.header-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.logo {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.header-menu {
+  flex: 1;
+  margin: 0 40px;
+  background: transparent;
+  border: none;
+  line-height: 64px;
+}
+
+.header-menu .ant-menu-item {
+  color: rgba(255, 255, 255, 0.85);
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.header-menu .ant-menu-item:hover {
+  color: #fff;
+  background: transparent !important;
+}
+
+.header-menu .ant-menu-item-selected {
+  color: #fff !important;
+  background: transparent !important;
+  border-bottom: 2px solid #e63946;
+}
+
+.header-menu .ant-menu-item-selected::after {
+  border-bottom: none !important;
+}
+
+.contact-button {
+  background: #e63946;
+  border: none;
+  font-weight: 600;
+  height: 40px;
+  border-radius: 20px;
+  padding: 0 24px;
+}
+
+.contact-button:hover {
+  background: #d62828;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+  .header-menu {
+    margin: 0 24px;
+  }
+  
+  .header-menu .ant-menu-item {
+    padding: 0 10px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 992px) {
+  .header-menu {
+    margin: 0 16px;
+  }
+  
+  .header-menu .ant-menu-item {
+    padding: 0 8px;
+    font-size: 13px;
+  }
+  
+  .logo {
+    font-size: 20px;
+  }
+  
+  .contact-button {
+    padding: 0 16px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .portfolio-header {
+    height: auto;
+    padding: 12px 0;
+    width: 100vw;
+    max-width: 100%;
+  }
+  
+  .header-content {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 8px 12px;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .logo {
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  
+  .header-menu {
+    margin: 0;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .header-menu .ant-menu-item {
+    padding: 0 6px;
+    font-size: 12px;
+  }
+  
+  .contact-button {
+    margin-top: 12px;
+    width: auto;
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .portfolio-header {
+    width: 100vw;
+    max-width: 100%;
+  }
+  
+  .header-content {
+    padding: 8px;
+  }
+  
+  .header-menu .ant-menu-item {
+    padding: 0 4px;
+    font-size: 11px;
+  }
+  
+  .header-menu .ant-menu-item .anticon {
+    font-size: 14px;
+  }
+}
+
+/* Style the three dots menu with circular hover */
+@media (max-width: 768px) {
+  /* Remove default rectangular hover and selected states */
+  .header-menu .ant-menu-overflow-item,
+  .header-menu .ant-menu-submenu {
+    line-height: 40px;
+  }
+  
+  .header-menu .ant-menu-overflow-item:hover,
+  .header-menu .ant-menu-submenu-title:hover,
+  .header-menu .ant-menu-submenu-selected,
+  .header-menu .ant-menu-submenu-active,
+  .header-menu .ant-menu-submenu-open {
+    background: transparent !important;
+  }
+  
+  .ant-menu-horizontal .ant-menu-submenu:hover::after,
+  .ant-menu-horizontal .ant-menu-submenu-selected::after,
+  .ant-menu-horizontal .ant-menu-submenu-active::after,
+  .ant-menu-horizontal .ant-menu-submenu-open::after {
+    border-bottom: none !important;
+  }
+  
+  /* Add circular hover and selected effect around three dots */
+  .header-menu .ant-menu-overflow-item .ant-menu-submenu-title,
+  .header-menu .ant-menu-submenu-title {
+    border-radius: 50% !important;
+    width: 40px;
+    height: 40px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    padding: 0 !important;
+    margin: 0 auto;
+    transition: all 0.3s ease;
+    line-height: 40px;
+  }
+  
+  /* Hover state - light red circle */
+  .header-menu .ant-menu-overflow-item:hover .ant-menu-submenu-title,
+  .header-menu .ant-menu-submenu-title:hover {
+    background: rgba(230, 57, 70, 0.15) !important;
+    transform: scale(1.1);
+  }
+  
+  /* Selected/Active/Open state - blue circle */
+  .header-menu .ant-menu-submenu-selected .ant-menu-submenu-title,
+  .header-menu .ant-menu-submenu-active .ant-menu-submenu-title,
+  .header-menu .ant-menu-submenu-open .ant-menu-submenu-title {
+    background: rgba(69, 123, 157, 0.3) !important;
+    border-radius: 50% !important;
+  }
+  
+  /* Style the three dots icon itself */
+  .header-menu .ant-menu-submenu-arrow,
+  .header-menu .ant-menu-overflow-item .anticon {
+    color: rgba(255, 255, 255, 0.9) !important;
+    font-size: 20px;
+  }
+}
