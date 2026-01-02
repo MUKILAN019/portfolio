@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://mukilan.dev/sitemap.xml
+Sitemap: https://mukilanpalanichamy.vercel.app/sitemap.xml
