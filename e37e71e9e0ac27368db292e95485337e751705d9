@@ -1,0 +1,73 @@
+src/styles/Header.css
+  4619564c66b64f94 42-47
+index.html
+  ba72d21c6f5b658a 15-18,24-25,30-31,35-60
+src/components/Hero.tsx
+  ba72d21c6f5b658a 63,74,87
+src/components/Header.tsx
+  ba72d21c6f5b658a 87
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.0.24",
+  "base_commit_sha": "e37e71e9e0ac27368db292e95485337e751705d9",
+  "prompts": {
+    "4619564c66b64f94": {
+      "agent_id": {
+        "tool": "DeputyDev",
+        "id": "358378",
+        "model": "GROK_4_POINT_1_FAST"
+      },
+      "human_author": "mukilan.p@kalvium.community",
+      "messages": [
+        {
+          "type": "assistant",
+          "text": "Changes made via DeputyDev VS Code extension",
+          "timestamp": "2026-01-04T04:19:17.857Z"
+        }
+      ],
+      "total_additions": 174,
+      "total_deletions": 42,
+      "accepted_lines": 28,
+      "overriden_lines": 0
+    },
+    "79fd9be38fb7d159": {
+      "agent_id": {
+        "tool": "DeputyDev",
+        "id": "358394",
+        "model": "GROK_4_POINT_1_FAST"
+      },
+      "human_author": "mukilan.p@kalvium.community",
+      "messages": [
+        {
+          "type": "assistant",
+          "text": "Changes made via DeputyDev VS Code extension",
+          "timestamp": "2026-01-04T05:28:01.228Z"
+        }
+      ],
+      "total_additions": 101,
+      "total_deletions": 62,
+      "accepted_lines": 56,
+      "overriden_lines": 0
+    },
+    "ba72d21c6f5b658a": {
+      "agent_id": {
+        "tool": "DeputyDev",
+        "id": "358396",
+        "model": "GROK_4_POINT_1_FAST"
+      },
+      "human_author": "mukilan.p@kalvium.community",
+      "messages": [
+        {
+          "type": "assistant",
+          "text": "Changes made via DeputyDev VS Code extension",
+          "timestamp": "2026-01-04T05:42:06.289Z"
+        }
+      ],
+      "total_additions": 110,
+      "total_deletions": 35,
+      "accepted_lines": 38,
+      "overriden_lines": 0
+    }
+  }
+}
