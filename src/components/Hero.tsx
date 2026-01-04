@@ -60,7 +60,7 @@ const Hero: React.FC<HeroProps> = ({ personal }) => {
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="social-link"
-                  aria-label="Mukilan's LinkedIn Profile"
+                  aria-label="Mukilan Palanichamy's LinkedIn Profile"
                 >
                   <LinkedinOutlined style={{ fontSize: '24px' }} />
                 </a>
@@ -71,7 +71,7 @@ const Hero: React.FC<HeroProps> = ({ personal }) => {
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="social-link"
-                  aria-label="Mukilan's GitHub Profile"
+                  aria-label="Mukilan Palanichamy's GitHub Profile"
                 >
                   <GithubOutlined style={{ fontSize: '24px' }} />
                 </a>
@@ -84,7 +84,7 @@ const Hero: React.FC<HeroProps> = ({ personal }) => {
           <div className="hero-image-wrapper">
             <img 
               src="/assets/profile.jpeg" 
-              alt="Mukilan - Frontend Developer"
+              alt="Mukilan Palanichamy - Frontend Developer & Software Engineer"
               className="hero-profile-image"
               loading="eager"
               fetchPriority="high"

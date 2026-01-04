@@ -39,6 +39,12 @@
   line-height: 64px;
 }
 
+.portfolio-header::-webkit-scrollbar,
+.header-content::-webkit-scrollbar,
+.header-menu .ant-menu::-webkit-scrollbar {
+  display: none !important;
+}
+
 .header-menu .ant-menu-item {
   color: rgba(255, 255, 255, 0.85);
   font-weight: 500;

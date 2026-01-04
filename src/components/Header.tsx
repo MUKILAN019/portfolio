@@ -84,7 +84,7 @@ const Header: React.FC<HeaderProps> = ({ onNavigate }) => {
           icon={<MailOutlined />}
           onClick={() => onNavigate('contact')}
           className="contact-button"
-          aria-label="Contact Mukilan"
+          aria-label="Contact Mukilan Palanichamy"
         >
           Contact
         </Button>

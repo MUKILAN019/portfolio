@@ -179,25 +179,6 @@ export const portfolioData: PortfolioData = {
     },
     {
       id: "exp-2",
-      company: "AICTE – IBM SkillsBuild",
-      position: "Cybersecurity Virtual Intern",
-      location: "Remote / India",
-      duration: "Jan 2025 – Feb 2025",
-      description: [
-        "Completed a 6-week intensive virtual internship focused on cybersecurity fundamentals, network security, threat detection, data privacy, and ethical hacking",
-        "Gained hands-on experience with practical exercises in securing digital assets and analyzing security threats",
-        "Developed a strong understanding of cybersecurity concepts including risk assessment, incident response, and ethical hacking techniques",
-        "Applied theoretical knowledge to simulated real-world scenarios, strengthening problem-solving and analytical skills"
-      ],
-      technologies: [
-        "Network Security Tools",
-        "Ethical Hacking Frameworks",
-        "Cyber Threat Analysis",
-        "Data Privacy Tools"
-      ]
-    },
-    {
-      id: "exp-3",
       company: "Coding Blocks, KARE University",
       position: "Development Lead & Hackathon Coordinator",
       location: "Srivalliputtur, India",
@@ -214,6 +195,25 @@ export const portfolioData: PortfolioData = {
         "WebSockets / Real-Time Communication",
         "Tailwind CSS",
         "UI/UX Development & Dashboard Management"
+      ]
+    },
+        {
+      id: "exp-3",
+      company: "AICTE – IBM SkillsBuild",
+      position: "Cybersecurity Virtual Intern",
+      location: "Remote / India",
+      duration: "Jan 2025 – Feb 2025",
+      description: [
+        "Completed a 6-week intensive virtual internship focused on cybersecurity fundamentals, network security, threat detection, data privacy, and ethical hacking",
+        "Gained hands-on experience with practical exercises in securing digital assets and analyzing security threats",
+        "Developed a strong understanding of cybersecurity concepts including risk assessment, incident response, and ethical hacking techniques",
+        "Applied theoretical knowledge to simulated real-world scenarios, strengthening problem-solving and analytical skills"
+      ],
+      technologies: [
+        "Network Security Tools",
+        "Ethical Hacking Frameworks",
+        "Cyber Threat Analysis",
+        "Data Privacy Tools"
       ]
     }
   ],
